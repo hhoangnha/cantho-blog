@@ -86,40 +86,40 @@
 
 
     <div id="content">
-      <div class="overlay">
-        <div class="overlay-helper">
-          <div class="overlay-element top-left">
-            <span id="overlay-top-left-text" class="overlay-text">
-              🔴 REC
-            </span>
-            
-          </div>
-          <div class="overlay-element top-right">
-            <span id="overlay-top-right-text" class="overlay-text" >
-              00:00
-            </span>
-            {{-- <p id="time" style="margin-right:10px" class="overlay-text"></p> --}}
-          </div>
-          <div class="overlay-element bottom-left">
-            <span id="overlay-bottom-left-text" class="overlay-text">
-              25 FPS
-            </span>
-          </div>
-          <div class="overlay-element bottom-right">
-            <span id="overlay-bottom-right-text" class="overlay-text">
-              1280x720
-            </span>
-          </div>
+        <div class="overlay">
+            <div class="overlay-helper">
+                <div class="overlay-element top-left">
+                    <span id="overlay-top-left-text" class="overlay-text">
+                        🔴 REC
+                    </span>
+
+                </div>
+                <div class="overlay-element top-right">
+                    <span id="overlay-top-right-text" class="overlay-text">
+                        00:00
+                    </span>
+                    {{-- <p id="time" style="margin-right:10px" class="overlay-text"></p> --}}
+                </div>
+                <div class="overlay-element bottom-left">
+                    <span id="overlay-bottom-left-text" class="overlay-text">
+                        25 FPS
+                    </span>
+                </div>
+                <div class="overlay-element bottom-right">
+                    <span id="overlay-bottom-right-text" class="overlay-text">
+                        1280x720
+                    </span>
+                </div>
+            </div>
         </div>
-      </div>
-      {{-- <img class="base" src="pic.JPG" width="720" height="480"> --}}
+        {{-- <img class="base" src="pic.JPG" width="720" height="480"> --}}
     </div>
     <main id="main">
         <div class="box-header">
-          <div class="overlay-element top-left"></div>
-        <div class="overlay-element top-right"></div>
-        <div class="overlay-element bottom-left"></div>
-        <div class="overlay-element bottom-right"></div>
+            <div class="overlay-element top-left"></div>
+            <div class="overlay-element top-right"></div>
+            <div class="overlay-element bottom-left"></div>
+            <div class="overlay-element bottom-right"></div>
             <div class="cont">
                 <div class="slider"></div>
                 <ul class="nav">
@@ -136,7 +136,7 @@
                 <p>What we've done</p>
             </div>
             <div class="container">
-                <div class="w-layout-grid blog-grid">
+                <div class="w-layout-grid blog-grid row flex-column-reverse">
                     <div class="content-left">
                         <div class="row blog-item-shadow ">
                             <div class="col-md-4">
@@ -291,6 +291,53 @@
                                         class="search-button w-button"><img
                                         src="https://assets.website-files.com/5ee1bccec7a1f843875ce9ea/5ee201ea9dc531a074f2aea1_Search%20icon.svg"
                                         alt="" class="search-icon"></a></form>
+
+                            <div class="row blog-item-shadow-small" style="max-width:100%; ">
+                                <div class="col-md-4 ">
+                                    <img style="border-radius:5px" src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                                </div>
+                                <div class="col-md-8 ">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                              
+                            </div>
+                            <div class="row blog-item-shadow-small" style="max-width:100%; ">
+                                <div class="col-md-4 ">
+                                    <img style="border-radius:5px" src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                                </div>
+                                <div class="col-md-8 ">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                              
+                            </div>
+                            <div class="row blog-item-shadow-small" style="max-width:100%; ">
+                                <div class="col-md-4 ">
+                                    <img style="border-radius:5px" src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                                </div>
+                                <div class="col-md-8 ">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                              
+                            </div>
+                            <div class="row blog-item-shadow-small" style="max-width:100%; ">
+                                <div class="col-md-4 ">
+                                    <img style="border-radius:5px" src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                                </div>
+                                <div class="col-md-8 ">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                              
+                            </div>
+                            <div class="row blog-item-shadow-small" style="max-width:100%; ">
+                                <div class="col-md-4 ">
+                                    <img style="border-radius:5px" src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                                </div>
+                                <div class="col-md-8 ">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                              
+                            </div>
+                            
 
 
                         </div>
@@ -947,11 +994,11 @@
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script src="{{ asset('assets/js/carousel.js') }}"></script>
     <script>
-      function displayTime() {
-        var now = new Date();
-        document.getElementById("time").innerHTML = now.toLocaleTimeString();
-      }
-      setInterval(displayTime, 1000);
+        function displayTime() {
+            var now = new Date();
+            document.getElementById("time").innerHTML = now.toLocaleTimeString();
+        }
+        setInterval(displayTime, 1000);
     </script>
 
 </body>
